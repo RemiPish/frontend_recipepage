@@ -37,11 +37,12 @@ body{
 .recipe{
     display: flex;
     flex-direction: column;
-    width: 51vw;
     background-color: var(--white);
     padding: clamp(2rem, 2rem + 2vw, 3rem);
     border-radius: var(--borderradius-500);
-    max-width: 40rem;
+    width: 100%; 
+    max-width: 600px;
+    margin: 0 auto;
     margin-top: var(--space-1600);
     color: var(--stone-600);
     line-height: 1.5;
@@ -60,15 +61,10 @@ body{
 .prep-time,
 .ingredients,
 .instruction,
-.Nutrition {
+.nutrition {
     padding: var(--space-300);
 }
-.header img{
-    display: block;
-    width: 100%;
-    height: auto;
-    border-radius: var(--space-150);
-}
+
 .recipe__title {
     font-family: "Young Serif", sans-serif;
     color: var(--brown-800);
